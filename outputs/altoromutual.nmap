@@ -1,0 +1,75 @@
+# Nmap 7.92 scan initiated Sun Dec  5 11:26:33 2021 as: nmap -vvv -p 80,443,8080 -sV -sC -oA altoromutual 65.61.137.117
+Nmap scan report for 65.61.137.117
+Host is up, received syn-ack (0.061s latency).
+Scanned at 2021-12-05 11:26:34 CST for 16s
+
+PORT     STATE SERVICE  REASON  VERSION
+80/tcp   open  http     syn-ack Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Altoro Mutual
+443/tcp  open  ssl/http syn-ack Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+|_ssl-date: 2021-12-05T17:26:49+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=demo.testfire.net
+| Subject Alternative Name: DNS:demo.testfire.net, DNS:altoromutual.com
+| Issuer: commonName=Sectigo RSA Domain Validation Secure Server CA/organizationName=Sectigo Limited/stateOrProvinceName=Greater Manchester/countryName=GB/localityName=Salford
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-05-22T00:00:00
+| Not valid after:  2022-05-22T23:59:59
+| MD5:   c5a6 d33d 92a1 6089 26a0 4d42 1f57 cd1d
+| SHA-1: b300 b380 6bb4 ac20 3236 5cc0 8051 fa5f a97e 1342
+| -----BEGIN CERTIFICATE-----
+| MIIGPzCCBSegAwIBAgIQbx4xBsLxqGYTtyV9dd/tRDANBgkqhkiG9w0BAQsFADCB
+| jzELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G
+| A1UEBxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMTcwNQYDVQQD
+| Ey5TZWN0aWdvIFJTQSBEb21haW4gVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENB
+| MB4XDTIwMDUyMjAwMDAwMFoXDTIyMDUyMjIzNTk1OVowHDEaMBgGA1UEAxMRZGVt
+| by50ZXN0ZmlyZS5uZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCO
+| bUo5fpoRZ/1qnje5A4/MY6qF38GFsnuAbAhP0yeBr0dNpPY+zuRgihFGjEByqK1k
+| YVrUNy9jI0Dn68NUWjtqDmM+IYWqNMDTA24FgTgd+RuGjQ5Pia5/+o04Du5ACMFW
+| KsGWMZn5TAUWYoIsBYwCye1z25AaE8Q98dNohAfNbHWaUc2nx9Z52v6lMOkKlLXb
+| vU0GwK3Ml3gzDW4du5iw8I8frwB4L3ZaI9R+JfR8GrjCthnt8uUW3/btLGrRBgFy
+| hJ9/F2kM38breJEIDiZrdM8F6qbBXmEfYV+1ypnCOzWeFug5x58OVY0d1FOrzbPM
+| fXPP37RVgVppzqaWR+5JAgMBAAGjggMHMIIDAzAfBgNVHSMEGDAWgBSNjF7EVK2K
+| 4Xfpm/mbBeG4AY1h4TAdBgNVHQ4EFgQUmc6rrM5hS46qBlYcBjnsNgUBcxEwDgYD
+| VR0PAQH/BAQDAgWgMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEG
+| CCsGAQUFBwMCMEkGA1UdIARCMEAwNAYLKwYBBAGyMQECAgcwJTAjBggrBgEFBQcC
+| ARYXaHR0cHM6Ly9zZWN0aWdvLmNvbS9DUFMwCAYGZ4EMAQIBMIGEBggrBgEFBQcB
+| AQR4MHYwTwYIKwYBBQUHMAKGQ2h0dHA6Ly9jcnQuc2VjdGlnby5jb20vU2VjdGln
+| b1JTQURvbWFpblZhbGlkYXRpb25TZWN1cmVTZXJ2ZXJDQS5jcnQwIwYIKwYBBQUH
+| MAGGF2h0dHA6Ly9vY3NwLnNlY3RpZ28uY29tMIIBgAYKKwYBBAHWeQIEAgSCAXAE
+| ggFsAWoAdwBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAXI+TmZX
+| AAAEAwBIMEYCIQD/KCqpeVhBvOYrEpyc33Nd2K1i3gXpkOm0iqW/1tiy9AIhAOr7
+| Cl719T50Fpmj8OZNGI3a1VpvQprohgRhwqB8ybaHAHcA36Veq2iCTx9sre64X04+
+| WurNohKkal6OOxLAIERcKnMAAAFyPk5ngQAABAMASDBGAiEAtbl0j5OHLbbLNpXi
+| DX5y4o8EXUuNWuTqdzAMjbr4t0cCIQDsaDjznLZ/8umup2XNicXsi+i7LnB15xVG
+| HYYGz1WBvwB2AG9Tdqwx8DEZ2JkApFEV/3cVHBHZAsEAKQaNsgiaN9kTAAABcj5O
+| ZkoAAAQDAEcwRQIgY4y71MXwUD1OYqLvteKltYeH0VQnHkzd+WGijIy7nC0CIQDO
+| 9W8m12TUtebUzmHxpjQqc20pBd9iXL5qNtA9vXFxHzAuBgNVHREEJzAlghFkZW1v
+| LnRlc3RmaXJlLm5ldIIQYWx0b3JvbXV0dWFsLmNvbTANBgkqhkiG9w0BAQsFAAOC
+| AQEAHVtLIaT+wffCJJDTIBPEiAPcDPhkMVtdGYQwGxGBj/FBwaEL/tE/wI2ysBd1
+| U+AMpE7GXlL5PfmTWmJsvrOuuy672whhThj0Dt6+dGI4+r89zVJq+HHiew80oYbF
+| tAhTkAAj7lJAO9d6RD/KSqReyv6DxfbjY7uXoBXYv7jCM4Pq9BV3jWXExH0MCMda
+| fSA3ZKSGFnm8A828UPshFhIbhYtM/lBwYpJRYGGpN2BkHjEgMnL7RYA05I7C3S2B
+| elqq6bgRIbb6tx9jBpSViNHhCdPuy6UIEesZbiurTRDqX91rg5brnntjuSZd8YIC
+| CO3u0EPM2Mr33MAyqRe9ZkZUeA==
+|_-----END CERTIFICATE-----
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Altoro Mutual
+8080/tcp open  http     syn-ack Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Altoro Mutual
+
+Host script results:
+|_clock-skew: 0s
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Dec  5 11:26:50 2021 -- 1 IP address (1 host up) scanned in 16.55 seconds

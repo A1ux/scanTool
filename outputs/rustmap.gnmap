@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sun Dec  5 14:30:33 2021 as: nmap --min-rate 4500 --max-rtt-timeout 1500ms -p- --open -oA rustmap scanme.nmap.org
+Host: 45.33.32.156 (scanme.nmap.org)	Status: Up
+Host: 45.33.32.156 (scanme.nmap.org)	Ports: 80/open/tcp//http///, 9929/open/tcp//nping-echo///, 31337/open/tcp//Elite///
+# Nmap done at Sun Dec  5 14:31:00 2021 -- 1 IP address (1 host up) scanned in 26.99 seconds
