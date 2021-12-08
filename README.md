@@ -9,15 +9,16 @@ Se apoya de tools instaladas en la web
 ## Funciones
 
 
-- Guardar todo en una base de datos sqlite
-- Automatizar lanzar scripts o tools ya sea indicando comandos o lanzandolos la propia aplicacion
-- Indicar si el objetivo donde se realiza el ataque es un windows o linux
-- Para HTTP y HTTPS fusionar con eyewithness
+- [ ] Guardar todo en una base de datos sqlite
+- [ ] Automatizar lanzar scripts o tools ya sea indicando comandos o lanzandolos la propia aplicacion
+- [ ] Indicar si el objetivo donde se realiza el ataque es un windows o linux
+- [ ] Para HTTP y HTTPS fusionar con eyewithness
+- [x]
 
 ### Funciones faltantes a agregar
 
-- Parsear las salidas de smb (message signing enable but no required)
-- Testear puertos snmp con public y private
+- [ ] Parsear las salidas de smb (message signing enable but no required)
+- [ ] Testear puertos snmp con public y private
 
 ## Argumentos
 
